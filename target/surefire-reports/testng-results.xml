@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" ignored="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="77" started-at="2020-04-30T15:29:12 IST" finished-at="2020-04-30T15:29:12 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="77" started-at="2020-04-30T15:29:12 IST" finished-at="2020-04-30T15:29:12 IST">
+      <class name="com.actitime.testscripts.LoginTest">
+        <test-method status="FAIL" signature="classetup(java.lang.String)[pri:0, instance:com.actitime.testscripts.LoginTest@3c0f93f1]" name="classetup" is-config="true" duration-ms="-1588240752780" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classetup -->
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:com.actitime.testscripts.LoginTest@3c0f93f1]" name="loginTest" duration-ms="0" started-at="2020-04-30T15:29:12 IST" finished-at="2020-04-30T15:29:12 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="SKIP" signature="loginSetup()[pri:0, instance:com.actitime.testscripts.LoginTest@3c0f93f1]" name="loginSetup" is-config="true" duration-ms="-1588240752782" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.actitime.testscripts.LoginTest@3c0f93f1]" name="logout" is-config="true" duration-ms="-1588240752782" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="SKIP" signature="classteardown()[pri:0, instance:com.actitime.testscripts.LoginTest@3c0f93f1]" name="classteardown" is-config="true" duration-ms="-1588240752782" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classteardown -->
+      </class> <!-- com.actitime.testscripts.LoginTest -->
+      <class name="com.actitime.testscripts.CreateCustomerTest">
+        <test-method status="FAIL" signature="classetup(java.lang.String)[pri:0, instance:com.actitime.testscripts.CreateCustomerTest@2038ae61]" name="classetup" is-config="true" duration-ms="-1588240752728" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classetup -->
+        <test-method status="SKIP" signature="loginSetup()[pri:0, instance:com.actitime.testscripts.CreateCustomerTest@2038ae61]" name="loginSetup" is-config="true" duration-ms="-1588240752769" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method status="SKIP" signature="createCustomerWithNameAndDescription()[pri:0, instance:com.actitime.testscripts.CreateCustomerTest@2038ae61]" name="createCustomerWithNameAndDescription" duration-ms="0" started-at="2020-04-30T15:29:12 IST" finished-at="2020-04-30T15:29:12 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerWithNameAndDescription -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.actitime.testscripts.CreateCustomerTest@2038ae61]" name="logout" is-config="true" duration-ms="-1588240752774" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="SKIP" signature="loginSetup()[pri:0, instance:com.actitime.testscripts.CreateCustomerTest@2038ae61]" name="loginSetup" is-config="true" duration-ms="-1588240752775" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method status="SKIP" signature="createCustomerwithName()[pri:0, instance:com.actitime.testscripts.CreateCustomerTest@2038ae61]" name="createCustomerwithName" duration-ms="0" started-at="2020-04-30T15:29:12 IST" finished-at="2020-04-30T15:29:12 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerwithName -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.actitime.testscripts.CreateCustomerTest@2038ae61]" name="logout" is-config="true" duration-ms="-1588240752777" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="SKIP" signature="classteardown()[pri:0, instance:com.actitime.testscripts.CreateCustomerTest@2038ae61]" name="classteardown" is-config="true" duration-ms="-1588240752777" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classteardown -->
+      </class> <!-- com.actitime.testscripts.CreateCustomerTest -->
+      <class name="com.actitime.testscripts.TaskTest">
+        <test-method status="FAIL" signature="classetup(java.lang.String)[pri:0, instance:com.actitime.testscripts.TaskTest@31dc339b]" name="classetup" is-config="true" duration-ms="-1588240752783" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classetup -->
+        <test-method status="SKIP" signature="TaskTest()[pri:0, instance:com.actitime.testscripts.TaskTest@31dc339b]" name="TaskTest" duration-ms="0" started-at="2020-04-30T15:29:12 IST" finished-at="2020-04-30T15:29:12 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TaskTest -->
+        <test-method status="SKIP" signature="loginSetup()[pri:0, instance:com.actitime.testscripts.TaskTest@31dc339b]" name="loginSetup" is-config="true" duration-ms="-1588240752785" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.actitime.testscripts.TaskTest@31dc339b]" name="logout" is-config="true" duration-ms="-1588240752785" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="SKIP" signature="classteardown()[pri:0, instance:com.actitime.testscripts.TaskTest@31dc339b]" name="classteardown" is-config="true" duration-ms="-1588240752786" started-at="2020-04-30T15:29:12 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classteardown -->
+      </class> <!-- com.actitime.testscripts.TaskTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

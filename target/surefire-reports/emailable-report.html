@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num attn">4</td><td class="num">0</td><td class="num">0</td><td class="num">77</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.actitime.testscripts.CreateCustomerTest</td><td><a href="#m0">classetup</a></td><td rowspan="1">1588240752728</td><td rowspan="1">-1588240752728</td></tr><tr class="failedodd"><td rowspan="1">com.actitime.testscripts.LoginTest</td><td><a href="#m1">classetup</a></td><td rowspan="1">1588240752780</td><td rowspan="1">-1588240752780</td></tr><tr class="failedeven"><td rowspan="1">com.actitime.testscripts.TaskTest</td><td><a href="#m2">classetup</a></td><td rowspan="1">1588240752783</td><td rowspan="1">-1588240752783</td></tr><tr><th colspan="4">Surefire test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">com.actitime.testscripts.CreateCustomerTest</td><td><a href="#m3">classteardown</a></td><td rowspan="1">1588240752777</td><td rowspan="1">-1588240752777</td></tr><tr class="skippedeven"><td><a href="#m4">loginSetup</a></td><td rowspan="2">1588240752769</td><td rowspan="2">-1588240752769</td></tr><tr class="skippedeven"><td><a href="#m5">loginSetup</a></td></tr><tr class="skippedeven"><td><a href="#m6">logout</a></td><td rowspan="2">1588240752774</td><td rowspan="2">-1588240752774</td></tr><tr class="skippedeven"><td><a href="#m7">logout</a></td></tr><tr class="skippedodd"><td rowspan="3">com.actitime.testscripts.LoginTest</td><td><a href="#m8">classteardown</a></td><td rowspan="1">1588240752782</td><td rowspan="1">-1588240752782</td></tr><tr class="skippedodd"><td><a href="#m9">loginSetup</a></td><td rowspan="1">1588240752782</td><td rowspan="1">-1588240752782</td></tr><tr class="skippedodd"><td><a href="#m10">logout</a></td><td rowspan="1">1588240752782</td><td rowspan="1">-1588240752782</td></tr><tr class="skippedeven"><td rowspan="3">com.actitime.testscripts.TaskTest</td><td><a href="#m11">classteardown</a></td><td rowspan="1">1588240752786</td><td rowspan="1">-1588240752786</td></tr><tr class="skippedeven"><td><a href="#m12">loginSetup</a></td><td rowspan="1">1588240752785</td><td rowspan="1">-1588240752785</td></tr><tr class="skippedeven"><td><a href="#m13">logout</a></td><td rowspan="1">1588240752785</td><td rowspan="1">-1588240752785</td></tr><tr><th colspan="4">Surefire test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.actitime.testscripts.CreateCustomerTest</td><td><a href="#m14">createCustomerWithNameAndDescription</a></td><td rowspan="1">1588240752771</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m15">createCustomerwithName</a></td><td rowspan="1">1588240752776</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.actitime.testscripts.LoginTest</td><td><a href="#m16">loginTest</a></td><td rowspan="1">1588240752782</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">com.actitime.testscripts.TaskTest</td><td><a href="#m17">TaskTest</a></td><td rowspan="1">1588240752785</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">com.actitime.testscripts.CreateCustomerTest#classetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.actitime.testscripts.LoginTest#classetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.actitime.testscripts.TaskTest#classetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.actitime.testscripts.CreateCustomerTest#classteardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.actitime.testscripts.CreateCustomerTest#loginSetup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.actitime.testscripts.CreateCustomerTest#loginSetup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.actitime.testscripts.CreateCustomerTest#logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.actitime.testscripts.CreateCustomerTest#logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.actitime.testscripts.LoginTest#classteardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.actitime.testscripts.LoginTest#loginSetup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.actitime.testscripts.LoginTest#logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.actitime.testscripts.TaskTest#classteardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.actitime.testscripts.TaskTest#loginSetup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.actitime.testscripts.TaskTest#logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.actitime.testscripts.CreateCustomerTest#createCustomerWithNameAndDescription</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.actitime.testscripts.CreateCustomerTest#createCustomerwithName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.actitime.testscripts.LoginTest#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.actitime.testscripts.TaskTest#TaskTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

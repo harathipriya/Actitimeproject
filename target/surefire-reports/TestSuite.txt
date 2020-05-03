@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 3, Errors: 0, Skipped: 15, Time elapsed: 0.827 s <<< FAILURE! - in TestSuite
+com.actitime.testscripts.CreateCustomerTest.classetup  Time elapsed: 0.59 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+
+com.actitime.testscripts.LoginTest.classetup  Time elapsed: 0.005 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+
+com.actitime.testscripts.TaskTest.classetup  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeClass on method classetup but has not been marked @Optional or defined
+
+
